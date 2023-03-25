@@ -1,0 +1,42 @@
+.button {
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    background: none;
+    font-weight: 500;
+    font-size: $font-size-medium;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.medium {
+    padding: 8px;
+}
+
+.large {
+    padding: 12px;
+    font-size: $font-size-large;
+}
+
+.default {
+    color: $primaryColor;
+    border-color: $primaryColor;
+}
+
+.success {
+    color: $successColor;
+    border-color: $successColor;
+}
+
+.error {
+    color: $dangerousColor;
+    border-color: $dangerousColor;
+}

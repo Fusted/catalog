@@ -1,0 +1,22 @@
+.product {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.badge {
+    position: absolute;
+}
+
+.company {
+    color: $blackColor;
+    font-size: $font-size-small;
+}
