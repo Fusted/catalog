@@ -37,7 +37,7 @@ export const Button = ({
     };
 
     const renderLinkButton = () => {
-        return <Link href={href}>{renderButton()}</Link>;
+        return <Link href={href}>{renderBasicButton()}</Link>;
     };
 
     const renderButton = () => {
